@@ -1,0 +1,61 @@
+name: EMA Swing Strategy Bot
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Choose: scan (find new candidates) or track (fill entries / check exits)"
+        required: true
+        type: choice
+        options:
+          - scan
+          - track
+  schedule:
+    # Scan after NSE close: 3:35pm IST = 10:05 UTC, weekdays
+    - cron: '5 10 * * 1-5'
+    # Track shortly after, once the day's bar is finalized: 3:50pm IST = 10:20 UTC
+    - cron: '20 10 * * 1-5'
+
+permissions:
+  contents: write
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Determine mode
+        id: mode
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "mode=${{ github.event.inputs.mode }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "5 10 * * 1-5" ]; then
+            echo "mode=scan" >> "$GITHUB_OUTPUT"
+          else
+            echo "mode=track" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run scanner
+        if: steps.mode.outputs.mode == 'scan'
+        run: python scanner.py
+
+      - name: Run tracker
+        if: steps.mode.outputs.mode == 'track'
+        run: python tracker.py
+
+      - name: Commit and push results
+        run: |
+          git config user.name "ema-swing-bot"
+          git config user.email "ema-swing-bot@users.noreply.github.com"
+          git add results.csv
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Update results.csv (${{ steps.mode.outputs.mode }})"
+          git push
