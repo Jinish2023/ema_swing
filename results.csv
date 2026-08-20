@@ -1,1 +1,7 @@
 SerialNo,ScanDate,Ticker,StrategyType,Status,Strategy,EntryDate,Entry,StopLoss,Target,ExitDate,Exit,Outcome,Return,Return%,HoldingDays,Taken,EMA9,EMA21,EMA50,EMA200
+1,2026-08-20,ABCAPITAL.NS,ema_confluence,Pending,"Confluence: fresh 9/21 EMA crossover + EMA9>EMA21>EMA50 alignment on 2026-08-20, above EMA50 trend filter. EMA9=404.58 EMA21=404.36 EMA50=394.75",,,384.46,,,,,,,,No,404.58,404.36,394.75,353.1
+2,2026-08-20,BRITANNIA.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-08-20. EMA200=5475.67 (vs 20d ago: 5474.24),,,4715.8,,,,,,,,No,5522.75,5472.33,5391.82,5475.67
+3,2026-08-20,FORTIS.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-08-20. EMA200=911.79 (vs 20d ago: 907.27),,,779.28,,,,,,,,No,919.32,931.03,940.54,911.79
+4,2026-08-20,MARUTI.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-08-20. EMA200=13801.91 (vs 20d ago: 13796.94),,,11737.65,,,,,,,,No,13811.94,13805.5,13682.92,13801.91
+5,2026-08-20,ULTRACEMCO.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-08-20. EMA200=11535.42 (vs 20d ago: 11475.64),,,9838.75,,,,,,,,No,11663.29,11707.5,11589.69,11535.42
+6,2026-08-20,ZEEL.NS,ema_confluence,Pending,"Confluence: fresh 9/21 EMA crossover + EMA9>EMA21>EMA50 alignment on 2026-08-20, above EMA50 trend filter. EMA9=102.41 EMA21=101.97 EMA50=101.68",,,101.55,,,,,,,,No,102.41,101.97,101.68,99.17
