@@ -17,6 +17,33 @@ one-position-per-ticker enforcement and cost-adjustment -- see your
 conversation history for the full numbers. Thresholds live in
 `strategy_core.py` under `CONFIG` if you want to tune them.
 
+
+================================================================================
+COMPARISON ACROSS STRATEGIES  (cost-adjusted assumes 0.3% round-trip cost)
+================================================================================
+
+ema_confluence
+  Trades: 12528 | Avg holding: 21 days (median 11)
+  RAW      -> Win rate: 30.5% | PF: 2.06 | Expectancy/trade: 3.10%
+  NET COST -> Win rate: 29.6% | PF: 1.89 | Expectancy/trade: 2.80%
+
+ema_crossover
+  Trades: 25452 | Avg holding: 22 days (median 12)
+  RAW      -> Win rate: 30.9% | PF: 1.93 | Expectancy/trade: 2.83%
+  NET COST -> Win rate: 30.0% | PF: 1.78 | Expectancy/trade: 2.53%
+
+long_term_200ema
+  Trades: 10239 | Avg holding: 34 days (median 4)
+  RAW      -> Win rate: 20.4% | PF: 3.37 | Expectancy/trade: 5.70%
+  NET COST -> Win rate: 18.8% | PF: 3.04 | Expectancy/trade: 5.40%
+
+three_ema_align
+  Trades: 23076 | Avg holding: 12 days (median 7)
+  RAW      -> Win rate: 32.7% | PF: 1.58 | Expectancy/trade: 1.44%
+  NET COST -> Win rate: 31.2% | PF: 1.43 | Expectancy/trade: 1.14%
+================================================================================
+
+
 ---
 
 ## Step-by-step setup
