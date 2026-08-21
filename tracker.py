@@ -44,6 +44,29 @@ NUMERIC_COLS = ["SerialNo", "Entry", "StopLoss", "Target", "Exit", "Return", "Re
 DATE_COLS = ["ScanDate", "EntryDate", "ExitDate"]
 
 
+def parse_date_column(series: pd.Series) -> pd.Series:
+    """
+    Explicitly tries known formats in order, rather than relying on a
+    dayfirst=True/False heuristic. That heuristic is unsafe here: on newer
+    pandas versions it can misinterpret even our own unambiguous ISO
+    ("2026-09-05") output, silently swapping month and day, while still
+    being needed to correctly read Excel's DD/MM/YYYY reformat if the file
+    was opened and re-saved there. Explicit formats avoid both failure modes.
+    """
+    s = series.astype(str).str.strip()
+    s = s.replace({"nan": None, "NaT": None, "": None})
+    result = pd.to_datetime(s, format="%Y-%m-%d", errors="coerce")
+    still_missing = result.isna() & s.notna()
+    if still_missing.any():
+        result.loc[still_missing] = pd.to_datetime(
+            s[still_missing], format="%Y-%m-%d %H:%M:%S", errors="coerce")
+    still_missing = result.isna() & s.notna()
+    if still_missing.any():
+        result.loc[still_missing] = pd.to_datetime(
+            s[still_missing], format="%d/%m/%Y", errors="coerce")
+    return result
+
+
 def coerce_dtypes(df: pd.DataFrame) -> pd.DataFrame:
     """
     Force every column to its intended dtype right after loading from CSV.
@@ -63,7 +86,7 @@ def coerce_dtypes(df: pd.DataFrame) -> pd.DataFrame:
             df[col] = pd.to_numeric(df[col], errors="coerce")
     for col in DATE_COLS:
         if col in df.columns:
-            df[col] = pd.to_datetime(df[col], errors="coerce")
+            df[col] = parse_date_column(df[col])
     return df
 
 
