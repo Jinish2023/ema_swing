@@ -31,6 +31,22 @@ NUMERIC_COLS = ["SerialNo", "Entry", "StopLoss", "Target", "Exit", "Return", "Re
 DATE_COLS = ["ScanDate", "EntryDate", "ExitDate"]
 
 
+def parse_date_column(series: pd.Series) -> pd.Series:
+    """See tracker.py's parse_date_column for why dayfirst=True alone is unsafe here."""
+    s = series.astype(str).str.strip()
+    s = s.replace({"nan": None, "NaT": None, "": None})
+    result = pd.to_datetime(s, format="%Y-%m-%d", errors="coerce")
+    still_missing = result.isna() & s.notna()
+    if still_missing.any():
+        result.loc[still_missing] = pd.to_datetime(
+            s[still_missing], format="%Y-%m-%d %H:%M:%S", errors="coerce")
+    still_missing = result.isna() & s.notna()
+    if still_missing.any():
+        result.loc[still_missing] = pd.to_datetime(
+            s[still_missing], format="%d/%m/%Y", errors="coerce")
+    return result
+
+
 def coerce_dtypes(df: pd.DataFrame) -> pd.DataFrame:
     """See tracker.py's coerce_dtypes for why this is necessary."""
     for col in STRING_COLS:
@@ -41,7 +57,7 @@ def coerce_dtypes(df: pd.DataFrame) -> pd.DataFrame:
             df[col] = pd.to_numeric(df[col], errors="coerce")
     for col in DATE_COLS:
         if col in df.columns:
-            df[col] = pd.to_datetime(df[col], errors="coerce")
+            df[col] = parse_date_column(df[col])
     return df
 
 
