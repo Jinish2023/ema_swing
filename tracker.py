@@ -38,6 +38,35 @@ def fetch_latest_with_emas(ticker):
     return compute_emas(df)
 
 
+STRING_COLS = ["Ticker", "StrategyType", "Status", "Strategy", "Outcome", "Taken"]
+NUMERIC_COLS = ["SerialNo", "Entry", "StopLoss", "Target", "Exit", "Return", "Return%",
+                "HoldingDays", "EMA9", "EMA21", "EMA50", "EMA200"]
+DATE_COLS = ["ScanDate", "EntryDate", "ExitDate"]
+
+
+def coerce_dtypes(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Force every column to its intended dtype right after loading from CSV.
+    Necessary because an entirely-empty column (e.g. Outcome before any
+    trade has closed, or HoldingDays before any position is open) gets its
+    dtype GUESSED by pandas -- and that guess differs across pandas
+    versions (float64 in some, StringDtype in others with the newer
+    string-inference default). Either guess breaks the moment we try to
+    write the "wrong" kind of value into it later. Explicit coercion here
+    makes this version-independent.
+    """
+    for col in STRING_COLS:
+        if col in df.columns:
+            df[col] = df[col].astype(object)
+    for col in NUMERIC_COLS:
+        if col in df.columns:
+            df[col] = pd.to_numeric(df[col], errors="coerce")
+    for col in DATE_COLS:
+        if col in df.columns:
+            df[col] = pd.to_datetime(df[col], errors="coerce")
+    return df
+
+
 def main():
     if not market_session_finalized():
         print("Refusing to track: today's NSE session isn't finalized yet "
@@ -51,8 +80,7 @@ def main():
         return
 
     results = pd.read_csv(RESULTS_PATH)
-    for col in ["ScanDate", "EntryDate", "ExitDate"]:
-        results[col] = pd.to_datetime(results[col], errors="coerce")
+    results = coerce_dtypes(results)
 
     changed = False
 
