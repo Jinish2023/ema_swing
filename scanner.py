@@ -25,11 +25,30 @@ COLUMNS = [
 ]
 
 
+STRING_COLS = ["Ticker", "StrategyType", "Status", "Strategy", "Outcome", "Taken"]
+NUMERIC_COLS = ["SerialNo", "Entry", "StopLoss", "Target", "Exit", "Return", "Return%",
+                "HoldingDays", "EMA9", "EMA21", "EMA50", "EMA200"]
+DATE_COLS = ["ScanDate", "EntryDate", "ExitDate"]
+
+
+def coerce_dtypes(df: pd.DataFrame) -> pd.DataFrame:
+    """See tracker.py's coerce_dtypes for why this is necessary."""
+    for col in STRING_COLS:
+        if col in df.columns:
+            df[col] = df[col].astype(object)
+    for col in NUMERIC_COLS:
+        if col in df.columns:
+            df[col] = pd.to_numeric(df[col], errors="coerce")
+    for col in DATE_COLS:
+        if col in df.columns:
+            df[col] = pd.to_datetime(df[col], errors="coerce")
+    return df
+
+
 def load_results():
     if RESULTS_PATH.exists():
         df = pd.read_csv(RESULTS_PATH)
-        for col in ["ScanDate", "EntryDate", "ExitDate"]:
-            df[col] = pd.to_datetime(df[col], errors="coerce")
+        df = coerce_dtypes(df)
         return df
     return pd.DataFrame(columns=COLUMNS)
 
