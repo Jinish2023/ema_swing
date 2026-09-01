@@ -42,3 +42,13 @@ SerialNo,ScanDate,Ticker,StrategyType,Status,Strategy,EntryDate,Entry,StopLoss,T
 41,2026-08-31,TCS.NS,ema_confluence,Pending,"Confluence: fresh 9/21 EMA crossover + EMA9>EMA21>EMA50 alignment on 2026-08-31, above EMA50 trend filter. EMA9=2322.51 EMA21=2321.32 EMA50=2296.89",,,2255.34,,,,,,,,No,2322.51,2321.32,2296.89,2512.4
 42,2026-08-31,FEDERALBNK.NS,ema_confluence,Pending,"Confluence: fresh 9/21 EMA crossover + EMA9>EMA21>EMA50 alignment on 2026-08-31, above EMA50 trend filter. EMA9=352.40 EMA21=352.18 EMA50=342.18",,,335.3,,,,,,,,No,352.4,352.18,342.18,296.8
 43,2026-08-31,SPLPETRO.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-08-31. EMA200=699.42 (vs 20d ago: 697.73),,,619.69,,,,,,,,No,707.22,709.13,710.96,699.42
+44,2026-09-01,ADANIGREEN.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-01. EMA200=1247.94 (vs 20d ago: 1231.63),,,1075.25,,,,,,,,No,1291.71,1326.9,1369.16,1247.94
+45,2026-09-01,ADANIPORTS.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-01. EMA200=1622.62 (vs 20d ago: 1609.54),,,1400.38,,,,,,,,No,1670.86,1691.01,1719.56,1622.62
+46,2026-09-01,APOLLOTYRE.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-01. EMA200=439.60 (vs 20d ago: 439.21),,,376.3,,,,,,,,No,441.09,439.12,433.37,439.6
+47,2026-09-01,BALKRISIND.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-01. EMA200=2295.49 (vs 20d ago: 2273.54),,,1982.03,,,,,,,,No,2341.55,2343.63,2295.2,2295.49
+48,2026-09-01,CAPLIPOINT.NS,ema_confluence,Pending,"Confluence: fresh 9/21 EMA crossover + EMA9>EMA21>EMA50 alignment on 2026-09-01, above EMA50 trend filter. EMA9=2559.73 EMA21=2547.69 EMA50=2488.80",,,2548.53,,,,,,,,No,2559.73,2547.69,2488.8,2172.94
+49,2026-09-01,CREDITACC.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-01. EMA200=1372.03 (vs 20d ago: 1346.69),,,1184.31,,,,,,,,No,1427.7,1470.4,1473.6,1372.03
+50,2026-09-01,INFY.NS,ema_confluence,Pending,"Confluence: fresh 9/21 EMA crossover + EMA9>EMA21>EMA50 alignment on 2026-09-01, above EMA50 trend filter. EMA9=1137.57 EMA21=1135.82 EMA50=1129.97",,,1086.64,,,,,,,,No,1137.57,1135.82,1129.97,1245.11
+51,2026-09-01,JUBLINGREA.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-01. EMA200=683.24 (vs 20d ago: 675.58),,,589.26,,,,,,,,No,698.48,710.84,707.53,683.24
+52,2026-09-01,LTM.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-01. EMA200=4577.76 (vs 20d ago: 4570.54),,,3931.25,,,,,,,,No,4569.56,4530.39,4380.19,4577.76
+53,2026-09-01,TITAGARH.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-01. EMA200=824.06 (vs 20d ago: 820.98),,,708.86,,,,,,,,No,832.19,836.15,837.65,824.06
