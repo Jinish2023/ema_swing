@@ -52,3 +52,7 @@ SerialNo,ScanDate,Ticker,StrategyType,Status,Strategy,EntryDate,Entry,StopLoss,T
 51,2026-09-01,JUBLINGREA.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-01. EMA200=683.24 (vs 20d ago: 675.58),,,589.26,,,,,,,,No,698.48,710.84,707.53,683.24
 52,2026-09-01,LTM.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-01. EMA200=4577.76 (vs 20d ago: 4570.54),,,3931.25,,,,,,,,No,4569.56,4530.39,4380.19,4577.76
 53,2026-09-01,TITAGARH.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-01. EMA200=824.06 (vs 20d ago: 820.98),,,708.86,,,,,,,,No,832.19,836.15,837.65,824.06
+54,2026-09-02,ATUL.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-02. EMA200=6480.88 (vs 20d ago: 6450.10),,,5512.68,,,,,,,,No,6500.49,6553.45,6559.61,6480.88
+55,2026-09-02,HOMEFIRST.NS,ema_confluence,Pending,"Confluence: fresh 9/21 EMA crossover + EMA9>EMA21>EMA50 alignment on 2026-09-02, above EMA50 trend filter. EMA9=1187.51 EMA21=1187.49 EMA50=1179.60",,,1124.9,,,,,,,,No,1187.51,1187.49,1179.6,1148.99
+56,2026-09-02,JSWENERGY.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-02. EMA200=536.32 (vs 20d ago: 533.77),,,458.83,,,,,,,,No,536.33,544.25,550.21,536.32
+57,2026-09-02,MANKIND.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-02. EMA200=2363.87 (vs 20d ago: 2355.79),,,2032.78,,,,,,,,No,2390.74,2411.45,2430.67,2363.87
