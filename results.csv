@@ -71,3 +71,6 @@ SerialNo,ScanDate,Ticker,StrategyType,Status,Strategy,EntryDate,Entry,StopLoss,T
 70,2026-09-04,HONAUT.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-04. EMA200=35275.07 (vs 20d ago: 35003.86),,,30306.75,,,,,,,,No,35868.97,36490.61,36745.44,35275.07
 71,2026-09-04,NUVOCO.NS,ema_confluence,Pending,"Confluence: fresh 9/21 EMA crossover + EMA9>EMA21>EMA50 alignment on 2026-09-04, above EMA50 trend filter. EMA9=332.25 EMA21=331.47 EMA50=331.23",,,331.02,,,,,,,,No,332.25,331.47,331.23,335.56
 72,2026-09-04,TITAGARH.NS,ema_confluence,Pending,"Confluence: fresh 9/21 EMA crossover + EMA9>EMA21>EMA50 alignment on 2026-09-04, above EMA50 trend filter. EMA9=841.12 EMA21=839.22 EMA50=838.78",,,819.54,,,,,,,,No,841.12,839.22,838.78,824.75
+73,2026-09-07,ASTRAL.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-07. EMA200=1498.20 (vs 20d ago: 1493.90),,,1273.47,,,,,,,,No,1505.69,1501.8,1486.6,1498.2
+74,2026-09-07,GRANULES.NS,ema_confluence,Pending,"Confluence: fresh 9/21 EMA crossover + EMA9>EMA21>EMA50 alignment on 2026-09-07, above EMA50 trend filter. EMA9=847.36 EMA21=846.22 EMA50=834.28",,,815.26,,,,,,,,No,847.36,846.22,834.28,721.59
+75,2026-09-07,INDIGO.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-07. EMA200=4990.33 (vs 20d ago: 4951.12),,,4250.85,,,,,,,,No,5068.11,5140.21,5126.81,4990.33
