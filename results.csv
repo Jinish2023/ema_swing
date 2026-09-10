@@ -83,3 +83,6 @@ SerialNo,ScanDate,Ticker,StrategyType,Status,Strategy,EntryDate,Entry,StopLoss,T
 82,2026-09-09,CONCOR.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-09. EMA200=505.46 (vs 20d ago: 503.66),,,433.5,,,,,,,,No,508.43,509.71,503.51,505.46
 83,2026-09-09,FORTIS.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-09. EMA200=913.12 (vs 20d ago: 912.96),,,777.75,,,,,,,,No,913.29,918.44,929.34,913.12
 84,2026-09-09,JSWINFRA.NS,ema_confluence,Pending,"Confluence: fresh 9/21 EMA crossover + EMA9>EMA21>EMA50 alignment on 2026-09-09, above EMA50 trend filter. EMA9=335.72 EMA21=335.36 EMA50=328.51",,,320.92,,,,,,,,No,335.72,335.36,328.51,300.96
+85,2026-09-10,ACUTAAS.NS,ema_confluence,Pending,"Confluence: fresh 9/21 EMA crossover + EMA9>EMA21>EMA50 alignment on 2026-09-10, above EMA50 trend filter. EMA9=3254.73 EMA21=3248.07 EMA50=3241.87",,,3244.32,,,,,,,,No,3254.73,3248.07,3241.87,2680.87
+86,2026-09-10,GRAVITA.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-10. EMA200=1697.78 (vs 20d ago: 1682.74),,,1443.89,,,,,,,,No,1714.95,1741.61,1739.11,1697.78
+87,2026-09-10,SBIN.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-10. EMA200=1004.42 (vs 20d ago: 997.48),,,858.25,,,,,,,,No,1017.72,1030.86,1034.97,1004.42
