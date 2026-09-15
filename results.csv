@@ -92,3 +92,4 @@ SerialNo,ScanDate,Ticker,StrategyType,Status,Strategy,EntryDate,Entry,StopLoss,T
 91,2026-09-11,FIVESTAR.NS,ema_confluence,Pending,"Confluence: fresh 9/21 EMA crossover + EMA9>EMA21>EMA50 alignment on 2026-09-11, above EMA50 trend filter. EMA9=533.56 EMA21=532.57 EMA50=526.97",,,517.99,,,,,,,,No,533.56,532.57,526.97,516.6
 92,2026-09-11,GODREJIND.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-11. EMA200=1123.05 (vs 20d ago: 1112.52),,,957.78,,,,,,,,No,1143.54,1175.73,1198.47,1123.05
 93,2026-09-11,TORNTPHARM.NS,ema_confluence,Pending,"Confluence: fresh 9/21 EMA crossover + EMA9>EMA21>EMA50 alignment on 2026-09-11, above EMA50 trend filter. EMA9=4944.35 EMA21=4944.08 EMA50=4880.39",,,4667.57,,,,,,,,No,4944.35,4944.08,4880.39,4417.99
+94,2026-09-15,NIVABUPA.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-15. EMA200=81.18 (vs 20d ago: 81.10),,,69.27,,,,,,,,No,80.65,81.68,82.95,81.18
