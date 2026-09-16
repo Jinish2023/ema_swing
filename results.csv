@@ -93,3 +93,13 @@ SerialNo,ScanDate,Ticker,StrategyType,Status,Strategy,EntryDate,Entry,StopLoss,T
 92,2026-09-11,GODREJIND.NS,long_term_200ema,Closed,Close crossed above rising EMA200 on 2026-09-11. EMA200=1123.05 (vs 20d ago: 1112.52),2026-09-15,1126.7,957.78,,2026-09-15,1104.0,Close_Below_EMA,-22.7,-2.01,0.0,Yes,1143.54,1175.73,1198.47,1123.05
 93,2026-09-11,TORNTPHARM.NS,ema_confluence,Closed,"Confluence: fresh 9/21 EMA crossover + EMA9>EMA21>EMA50 alignment on 2026-09-11, above EMA50 trend filter. EMA9=4944.35 EMA21=4944.08 EMA50=4880.39",2026-09-15,4931.0,4667.57,,2026-09-15,4850.0,EMA_Cross_Exit,-81.0,-1.64,0.0,Yes,4944.35,4944.08,4880.39,4417.99
 94,2026-09-15,NIVABUPA.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-15. EMA200=81.18 (vs 20d ago: 81.10),,,69.27,,,,,,,,No,80.65,81.68,82.95,81.18
+95,2026-09-16,CCL.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-16. EMA200=1064.10 (vs 20d ago: 1056.80),,,905.68,,,,,,,,No,1086.81,1101.0,1119.59,1064.1
+96,2026-09-16,HEROMOTOCO.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-16. EMA200=5172.41 (vs 20d ago: 5120.00),,,4449.75,,,,,,,,No,5266.5,5361.72,5334.68,5172.41
+97,2026-09-16,LODHA.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-16. EMA200=1079.16 (vs 20d ago: 1053.04),,,924.29,,,,,,,,No,1137.91,1176.2,1161.61,1079.16
+98,2026-09-16,MARICO.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-16. EMA200=796.24 (vs 20d ago: 789.38),,,688.63,,,,,,,,No,811.9,825.32,833.52,796.24
+99,2026-09-16,NESTLEIND.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-16. EMA200=1366.32 (vs 20d ago: 1353.57),,,1176.82,,,,,,,,No,1392.25,1419.33,1436.57,1366.32
+100,2026-09-16,PIDILITIND.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-16. EMA200=1523.57 (vs 20d ago: 1503.86),,,1312.23,,,,,,,,No,1570.36,1600.71,1602.16,1523.57
+101,2026-09-16,UNOMINDA.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-16. EMA200=1165.90 (vs 20d ago: 1149.47),,,1008.1,,,,,,,,No,1208.91,1226.45,1211.68,1165.9
+102,2026-09-16,UNITDSPR.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-16. EMA200=1387.15 (vs 20d ago: 1369.56),,,1181.08,,,,,,,,No,1412.11,1448.04,1448.47,1387.15
+103,2026-09-16,VTL.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-16. EMA200=558.27 (vs 20d ago: 552.51),,,485.99,,,,,,,,No,572.52,582.24,593.47,558.27
+104,2026-09-16,ZENTEC.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-16. EMA200=1651.94 (vs 20d ago: 1618.46),,,1413.38,,,,,,,,No,1728.16,1770.23,1775.31,1651.94
