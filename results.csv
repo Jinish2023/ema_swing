@@ -103,3 +103,11 @@ SerialNo,ScanDate,Ticker,StrategyType,Status,Strategy,EntryDate,Entry,StopLoss,T
 102,2026-09-16,UNITDSPR.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-16. EMA200=1387.15 (vs 20d ago: 1369.56),,,1181.08,,,,,,,,No,1412.11,1448.04,1448.47,1387.15
 103,2026-09-16,VTL.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-16. EMA200=558.27 (vs 20d ago: 552.51),,,485.99,,,,,,,,No,572.52,582.24,593.47,558.27
 104,2026-09-16,ZENTEC.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-16. EMA200=1651.94 (vs 20d ago: 1618.46),,,1413.38,,,,,,,,No,1728.16,1770.23,1775.31,1651.94
+105,2026-09-17,BHEL.NS,ema_confluence,Pending,"Confluence: fresh 9/21 EMA crossover + EMA9>EMA21>EMA50 alignment on 2026-09-17, above EMA50 trend filter. EMA9=424.03 EMA21=423.59 EMA50=415.91",,,403.45,,,,,,,,No,424.03,423.59,415.91,356.67
+106,2026-09-17,CDSL.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-17. EMA200=1345.99 (vs 20d ago: 1339.56),,,1146.99,,,,,,,,No,1348.67,1360.38,1351.28,1345.99
+107,2026-09-17,CUMMINSIND.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-17. EMA200=4957.01 (vs 20d ago: 4923.84),,,4267.0,,,,,,,,No,5037.44,5127.43,5257.11,4957.01
+108,2026-09-17,ENDURANCE.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-17. EMA200=2641.89 (vs 20d ago: 2600.83),,,2287.18,,,,,,,,No,2712.87,2783.37,2785.15,2641.89
+109,2026-09-17,JINDALSTEL.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-17. EMA200=1110.82 (vs 20d ago: 1103.61),,,959.14,,,,,,,,No,1125.39,1129.49,1121.64,1110.82
+110,2026-09-17,NH.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-17. EMA200=1856.63 (vs 20d ago: 1850.89),,,1588.31,,,,,,,,No,1877.77,1883.8,1897.39,1856.63
+111,2026-09-17,OBEROIRLTY.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-17. EMA200=1726.27 (vs 20d ago: 1705.01),,,1479.59,,,,,,,,No,1758.33,1800.0,1809.27,1726.27
+112,2026-09-17,SAPPHIRE.NS,ema_confluence,Pending,"Confluence: fresh 9/21 EMA crossover + EMA9>EMA21>EMA50 alignment on 2026-09-17, above EMA50 trend filter. EMA9=227.87 EMA21=227.43 EMA50=216.62",,,219.25,,,,,,,,No,227.87,227.43,216.62,214.89
