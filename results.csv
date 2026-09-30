@@ -176,3 +176,11 @@ SerialNo,ScanDate,Ticker,StrategyType,Status,Strategy,EntryDate,Entry,StopLoss,T
 175,2026-09-29,ACUTAAS.NS,ema_confluence,Pending,"Confluence: fresh 9/21 EMA crossover + EMA9>EMA21>EMA50 alignment on 2026-09-29, above EMA50 trend filter. EMA9=3286.55 EMA21=3285.30 EMA50=3267.03",,,3105.85,,,,,,,,No,3286.55,3285.3,3267.03,2760.7
 176,2026-09-29,ADANIGREEN.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-29. EMA200=1255.08 (vs 20d ago: 1247.96),,,1071.0,,,,,,,,No,1277.73,1290.11,1323.4,1255.08
 177,2026-09-29,GLENMARK.NS,ema_confluence,Pending,"Confluence: fresh 9/21 EMA crossover + EMA9>EMA21>EMA50 alignment on 2026-09-29, above EMA50 trend filter. EMA9=2414.69 EMA21=2413.18 EMA50=2369.79",,,2295.01,,,,,,,,No,2414.69,2413.18,2369.79,2204.74
+178,2026-09-30,ABB.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-30. EMA200=6692.10 (vs 20d ago: 6588.27),,,5759.6,,,,,,,,No,6976.31,7136.96,7223.6,6692.1
+179,2026-09-30,ABSLAMC.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-30. EMA200=972.97 (vs 20d ago: 957.63),,,846.0,,,,,,,,No,1009.89,1028.11,1036.64,972.97
+180,2026-09-30,JSWDULUX.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-30. EMA200=3077.38 (vs 20d ago: 3062.41),,,2617.15,,,,,,,,No,3122.26,3130.79,3111.07,3077.38
+181,2026-09-30,J&KBANK.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-30. EMA200=138.56 (vs 20d ago: 136.97),,,117.85,,,,,,,,No,143.28,145.85,149.88,138.56
+182,2026-09-30,POLYMED.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-30. EMA200=1673.79 (vs 20d ago: 1665.73),,,1422.73,,,,,,,,No,1687.47,1706.16,1701.52,1673.79
+183,2026-09-30,SHRIRAMFIN.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-30. EMA200=972.40 (vs 20d ago: 964.52),,,835.3,,,,,,,,No,991.33,1013.45,1033.93,972.4
+184,2026-09-30,UNIONBANK.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-30. EMA200=167.99 (vs 20d ago: 165.63),,,145.35,,,,,,,,No,174.54,177.67,177.91,167.99
+185,2026-09-30,ECLERX.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-30. EMA200=1777.75 (vs 20d ago: 1750.82),,,1546.92,,,,,,,,No,1859.85,1883.93,1847.9,1777.75
