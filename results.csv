@@ -184,3 +184,4 @@ SerialNo,ScanDate,Ticker,StrategyType,Status,Strategy,EntryDate,Entry,StopLoss,T
 183,2026-09-30,SHRIRAMFIN.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-30. EMA200=972.40 (vs 20d ago: 964.52),,,835.3,,,,,,,,No,991.33,1013.45,1033.93,972.4
 184,2026-09-30,UNIONBANK.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-30. EMA200=167.99 (vs 20d ago: 165.63),,,145.35,,,,,,,,No,174.54,177.67,177.91,167.99
 185,2026-09-30,ECLERX.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-09-30. EMA200=1777.75 (vs 20d ago: 1750.82),,,1546.92,,,,,,,,No,1859.85,1883.93,1847.9,1777.75
+186,2026-10-01,KOTAKBANK.NS,ema_confluence,Pending,"Confluence: fresh 9/21 EMA crossover + EMA9>EMA21>EMA50 alignment on 2026-10-01, above EMA50 trend filter. EMA9=411.78 EMA21=411.67 EMA50=406.67",,,393.25,,,,,,,,No,411.78,411.67,406.67,399.96
