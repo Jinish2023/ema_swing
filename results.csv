@@ -274,3 +274,5 @@ SerialNo,ScanDate,Ticker,StrategyType,Status,Strategy,EntryDate,Entry,StopLoss,T
 273,2026-10-19,ADANIPORTS.NS,ema_confluence,Pending,"Confluence: fresh 9/21 EMA crossover + EMA9>EMA21>EMA50 alignment on 2026-10-19, above EMA50 trend filter. EMA9=1756.03 EMA21=1755.70 EMA50=1747.22",,,1660.04,,,,,,,,No,1756.03,1755.7,1747.22,1656.2
 274,2026-10-19,JSWSTEEL.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-10-19. EMA200=1226.04 (vs 20d ago: 1224.90),,,1055.11,,,,,,,,No,1210.79,1228.31,1251.12,1226.04
 275,2026-10-19,J&KBANK.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-10-19. EMA200=138.15 (vs 20d ago: 137.61),,,118.45,,,,,,,,No,138.26,140.64,145.55,138.15
+276,2026-10-21,ANANDRATHI.NS,ema_confluence,Pending,"Confluence: fresh 9/21 EMA crossover + EMA9>EMA21>EMA50 alignment on 2026-10-21, above EMA50 trend filter. EMA9=2145.21 EMA21=2141.83 EMA50=2128.83",,,2068.0,,,,,,,,No,2145.21,2141.83,2128.83,1878.41
+277,2026-10-21,SCHNEIDER.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-10-21. EMA200=1132.99 (vs 20d ago: 1117.39),,,970.28,,,,,,,,No,1172.05,1194.86,1222.54,1132.99
