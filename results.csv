@@ -278,3 +278,13 @@ SerialNo,ScanDate,Ticker,StrategyType,Status,Strategy,EntryDate,Entry,StopLoss,T
 277,2026-10-21,SCHNEIDER.NS,long_term_200ema,Closed,Close crossed above rising EMA200 on 2026-10-21. EMA200=1132.99 (vs 20d ago: 1117.39),2026-10-22,1141.3,970.28,,2026-10-23,1114.1,Close_Below_EMA,-27.2,-2.38,1.0,Yes,1172.05,1194.86,1222.54,1132.99
 278,2026-10-22,ASAHIINDIA.NS,long_term_200ema,Closed,Close crossed above rising EMA200 on 2026-10-22. EMA200=903.31 (vs 20d ago: 894.91),2026-10-23,906.0,776.52,,2026-10-23,894.3,Close_Below_EMA,-11.7,-1.29,0.0,Yes,923.5,936.0,935.47,903.31
 279,2026-10-22,CRISIL.NS,ema_confluence,Open,"Confluence: fresh 9/21 EMA crossover + EMA9>EMA21>EMA50 alignment on 2026-10-22, above EMA50 trend filter. EMA9=4565.06 EMA21=4543.43 EMA50=4516.65",2026-10-23,4780.0,4490.57,,,,,,,,Yes,4565.06,4543.43,4516.65,4427.2
+280,2026-10-26,MAHABANK.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-10-26. EMA200=75.74 (vs 20d ago: 74.65),,,64.7,,,,,,,,No,78.81,80.36,81.23,75.74
+281,2026-10-26,GROWW.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-10-26. EMA200=183.69 (vs 20d ago: 182.27),,,156.81,,,,,,,,No,189.36,190.66,192.05,183.69
+282,2026-10-26,CARBORUNIV.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-10-26. EMA200=1051.21 (vs 20d ago: 1024.10),,,959.82,,,,,,,,No,1106.81,1140.47,1140.22,1051.21
+283,2026-10-26,FINCABLES.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-10-26. EMA200=1105.95 (vs 20d ago: 1048.64),,,972.99,,,,,,,,No,1242.9,1318.02,1302.85,1105.95
+284,2026-10-26,KPIL.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-10-26. EMA200=1294.47 (vs 20d ago: 1277.15),,,1101.52,,,,,,,,No,1333.89,1363.75,1371.24,1294.47
+285,2026-10-26,LGEINDIA.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-10-26. EMA200=1611.02 (vs 20d ago: 1587.67),,,1378.19,,,,,,,,No,1672.19,1692.63,1673.84,1611.02
+286,2026-10-26,MRPL.NS,ema_confluence,Pending,"Confluence: fresh 9/21 EMA crossover + EMA9>EMA21>EMA50 alignment on 2026-10-26, above EMA50 trend filter. EMA9=171.22 EMA21=170.24 EMA50=168.60",,,171.65,,,,,,,,No,171.22,170.24,168.6,162.73
+287,2026-10-26,MRPL.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-10-26. EMA200=162.73 (vs 20d ago: 161.07),,,155.22,,,,,,,,No,171.22,170.24,168.6,162.73
+288,2026-10-26,STARHEALTH.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-10-26. EMA200=531.49 (vs 20d ago: 528.21),,,457.51,,,,,,,,No,542.41,547.12,554.6,531.49
+289,2026-10-26,SAIL.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-10-26. EMA200=166.47 (vs 20d ago: 165.03),,,144.33,,,,,,,,No,169.58,172.28,174.47,166.47
