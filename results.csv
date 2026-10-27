@@ -288,3 +288,19 @@ SerialNo,ScanDate,Ticker,StrategyType,Status,Strategy,EntryDate,Entry,StopLoss,T
 287,2026-10-26,MRPL.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-10-26. EMA200=162.73 (vs 20d ago: 161.07),,,155.22,,,,,,,,No,171.22,170.24,168.6,162.73
 288,2026-10-26,STARHEALTH.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-10-26. EMA200=531.49 (vs 20d ago: 528.21),,,457.51,,,,,,,,No,542.41,547.12,554.6,531.49
 289,2026-10-26,SAIL.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-10-26. EMA200=166.47 (vs 20d ago: 165.03),,,144.33,,,,,,,,No,169.58,172.28,174.47,166.47
+290,2026-10-27,ADANIGREEN.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-10-27. EMA200=1254.73 (vs 20d ago: 1250.35),,,1095.65,,,,,,,,No,1264.55,1275.07,1299.09,1254.73
+291,2026-10-27,ATHERENERG.NS,ema_confluence,Pending,"Confluence: fresh 9/21 EMA crossover + EMA9>EMA21>EMA50 alignment on 2026-10-27, above EMA50 trend filter. EMA9=1508.09 EMA21=1491.16 EMA50=1465.41",,,1573.56,,,,,,,,No,1508.09,1491.16,1465.41,1143.89
+292,2026-10-27,BEML.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-10-27. EMA200=1859.57 (vs 20d ago: 1839.96),,,1698.81,,,,,,,,No,1924.34,1947.58,1943.09,1859.57
+293,2026-10-27,BELRISE.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-10-27. EMA200=212.08 (vs 20d ago: 208.32),,,180.75,,,,,,,,No,217.28,225.64,230.58,212.08
+294,2026-10-27,CAPLIPOINT.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-10-27. EMA200=2291.25 (vs 20d ago: 2256.31),,,1999.54,,,,,,,,No,2315.51,2422.65,2506.76,2291.25
+295,2026-10-27,DATAPATTNS.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-10-27. EMA200=3924.04 (vs 20d ago: 3886.62),,,3501.49,,,,,,,,No,3982.58,4107.58,4264.41,3924.04
+296,2026-10-27,INDGN.NS,ema_confluence,Pending,"Confluence: fresh 9/21 EMA crossover + EMA9>EMA21>EMA50 alignment on 2026-10-27, above EMA50 trend filter. EMA9=591.13 EMA21=590.63 EMA50=580.93",,,563.95,,,,,,,,No,591.13,590.63,580.93,544.2
+297,2026-10-27,IKS.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-10-27. EMA200=1698.30 (vs 20d ago: 1694.03),,,1447.55,,,,,,,,No,1681.9,1714.21,1744.28,1698.3
+298,2026-10-27,IPCALAB.NS,ema_confluence,Pending,"Confluence: fresh 9/21 EMA crossover + EMA9>EMA21>EMA50 alignment on 2026-10-27, above EMA50 trend filter. EMA9=1926.82 EMA21=1924.94 EMA50=1903.29",,,1861.95,,,,,,,,No,1926.82,1924.94,1903.29,1712.28
+299,2026-10-27,KIRLOSENG.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-10-27. EMA200=1839.32 (vs 20d ago: 1782.91),,,1605.14,,,,,,,,No,1935.5,2037.79,2099.06,1839.32
+300,2026-10-27,OFSS.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-10-27. EMA200=9917.92 (vs 20d ago: 9829.80),,,8438.8,,,,,,,,No,10070.13,10384.21,10769.6,9917.92
+301,2026-10-27,PWL.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-10-27. EMA200=125.32 (vs 20d ago: 123.98),,,110.41,,,,,,,,No,128.67,130.41,129.19,125.32
+302,2026-10-27,SAREGAMA.NS,ema_confluence,Pending,"Confluence: fresh 9/21 EMA crossover + EMA9>EMA21>EMA50 alignment on 2026-10-27, above EMA50 trend filter. EMA9=500.64 EMA21=499.74 EMA50=497.33",,,478.93,,,,,,,,No,500.64,499.74,497.33,457.84
+303,2026-10-27,TEGA.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-10-27. EMA200=1758.26 (vs 20d ago: 1720.15),,,1508.32,,,,,,,,No,1811.66,1869.01,1835.98,1758.26
+304,2026-10-27,USHAMART.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-10-27. EMA200=469.17 (vs 20d ago: 464.57),,,407.4,,,,,,,,No,477.19,487.24,493.6,469.17
+305,2026-10-27,ZYDUSLIFE.NS,ema_confluence,Pending,"Confluence: fresh 9/21 EMA crossover + EMA9>EMA21>EMA50 alignment on 2026-10-27, above EMA50 trend filter. EMA9=1143.07 EMA21=1142.17 EMA50=1138.73",,,1102.53,,,,,,,,No,1143.07,1142.17,1138.73,1064.36
