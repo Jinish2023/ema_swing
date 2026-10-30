@@ -324,3 +324,5 @@ SerialNo,ScanDate,Ticker,StrategyType,Status,Strategy,EntryDate,Entry,StopLoss,T
 323,2026-10-29,LENSKART.NS,ema_confluence,Pending,"Confluence: fresh 9/21 EMA crossover + EMA9>EMA21>EMA50 alignment on 2026-10-29, above EMA50 trend filter. EMA9=662.37 EMA21=661.30 EMA50=650.11",,,640.84,,,,,,,,No,662.37,661.3,650.11,564.46
 324,2026-10-29,RBLBANK.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-10-29. EMA200=353.44 (vs 20d ago: 347.09),,,306.76,,,,,,,,No,361.06,376.35,385.07,353.44
 325,2026-10-29,URBANCO.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-10-29. EMA200=144.98 (vs 20d ago: 143.33),,,124.28,,,,,,,,No,144.81,150.97,153.87,144.98
+326,2026-10-30,ABCAPITAL.NS,long_term_200ema,Pending,Close crossed above rising EMA200 on 2026-10-30. EMA200=364.40 (vs 20d ago: 363.33),,,314.03,,,,,,,,No,362.34,369.69,380.19,364.4
+327,2026-10-30,NAVINFLUOR.NS,ema_confluence,Pending,"Confluence: fresh 9/21 EMA crossover + EMA9>EMA21>EMA50 alignment on 2026-10-30, above EMA50 trend filter. EMA9=8268.64 EMA21=8265.38 EMA50=8236.46",,,8159.2,,,,,,,,No,8268.64,8265.38,8236.46,7325.83
